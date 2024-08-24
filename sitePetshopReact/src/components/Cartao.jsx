@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cartao.css";
 
 const Cartao = ({ titulo, descricao, imagem }) => {
     return (
@@ -10,7 +11,6 @@ const Cartao = ({ titulo, descricao, imagem }) => {
                 <p>{descricao}</p>
             </div>
         </div>
-
     );
 };
 export default Cartao;
