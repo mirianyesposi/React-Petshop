@@ -75,11 +75,6 @@ const App = () => {
       id: "descrição",
       tipo: "text",
     },
-    {
-      nome: "link pagina",
-      id: "link",
-      tipo: "nome",
-    },
 
   ]
   return (
@@ -103,7 +98,6 @@ const App = () => {
               descricao={item.descrição}
               imagem={`src/assets/${item.imagem}`}
               titulo={item.titulo}
-              link={item.link}
             />
           )
         }): null
