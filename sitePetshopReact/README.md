@@ -1,14 +1,8 @@
-#Projeto de Programação Web II
+# React + Vite
 
-Para executar o projeto, faça o clone (git clone) e execute as etapas:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- npm install <-- para instalar as dependências
-- code .  <-- para abrir o VSCode
-- npm run dev <-- Executa o projeto.
+Currently, two official plugins are available:
 
-*IMPORTANTE*
-O projeto não está com o arquivo firebaseConfig.js então será necessário adicioná-lo.
-
-- Abra o Firebase Console e crie um projeto ou use algum q vocẽ tenha pronto.
-- Adicione o aplicativo e inicialize o Firebase conforme orientando pela documentação, adicionando no arquivo src/database/firebaseConfig.js
-- Adicione também o Firestore ao projeto e ao arquivo firebaseConfig.js
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
